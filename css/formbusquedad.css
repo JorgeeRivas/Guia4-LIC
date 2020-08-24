@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../img/bg-body.png);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+.box-wrap {
+  margin: 20px;
+  min-height: 460px;
+  position: relative;
+}
+fieldset {
+  background: url(../img/bg-form.png);
+  margin: 0 auto;
+  padding: 12px 16px;
+  height: auto;
+  width: 40%;
+}
+legend {
+  background: rgba(98, 125, 77, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(98, 125, 77, 1) 0%,
+    rgba(31, 59, 8, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(98, 125, 77, 1)),
+    color-stop(100%, rgba(31, 59, 8, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(98, 125, 77, 1) 0%,
+    rgba(31, 59, 8, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(98, 125, 77, 1) 0%,
+    rgba(31, 59, 8, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(98, 125, 77, 1) 0%,
+    rgba(31, 59, 8, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(98, 125, 77, 1) 0%,
+    rgba(31, 59, 8, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d',
+       endColorstr='#1f3b08', GradientType=1 );
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -o-border-radius: 16px;
+  -ms-border-radius: 16px;
+  border-radius: 16px;
+  color: #fcecfc;
+  padding: 12px 8px;
+}
+label {
+  color: #222;
+  float: left;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 6px;
+  text-shadow: 0px 2px 3px #555;
+  width: 180px;
+}
+input[type="text"] {
+  background-color: #f5f5f8;
+  border: 1px solid #c9cad1;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -o-border-radius: 3px 3px 3px 3px;
+  -ms-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  color: #333;
+  font-size: 1.2em;
+  height: 28px;
+  margin: 13px 0;
+  padding: 12px;
+  width: 96%;
+}
+select {
+  border: 1px solid #c9cad1;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  margin: 11px 0px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  -webkit-appearance: none;
+  background: #f5f5f8 url(../img/downarrow.png) no-repeat 328px 19px;
+  padding: 12px;
+  width: 96%;
+}

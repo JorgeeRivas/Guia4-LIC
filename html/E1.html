@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Validador de datos</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/formstyle2.css" />
+    <script src="../js/ejercicio1.js"></script>
+    <!-- Para las versiones anteriores -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="javascript:void(0)" name="frmdatos" id="dataform">
+        <h2 class="contact">Validador de datos</h2>
+        <span class="contact">
+          <label for="tipo">Seleccione el tipo de dato:</label>&nbsp;&nbsp;
+        </span>
+        <select name="seltipo" id="tipo">
+          <option value="redes" selected>Redes</option>
+          <option value="correo">Correo electronico</option>
+          <option value="URL">URL</option>
+
+        </select>
+        <span class="contact">
+          <label for="txtdato">Dato:</label>&nbsp;&nbsp;
+        </span>
+        <input
+          type="text"
+          name="txtdato"
+          id="data"
+          value=""
+          maxlength="20"
+          placeholder="(Ingrese el dato)"
+        /><br />
+        <input type="button" name="btnvalidar" id="validar" value="Validar" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Reem Kufi', sans-serif;
+
+    
+  }
+  
+  body{
+    background-color: #AAB9BF;
+  }
+
+  h1 {
+    font-family: lato;
+    font-size: 72px;
+  }
+  section {
+    background: #f2f4f3;
+    height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #menu a {
+    color: #f6f7f8;
+    background: #0C3559;
+    height: 64px;
+    font-family: 'Reem Kufi', sans-serif;
+
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.4s;
+    
+  }
+  #menu a:hover {
+    background: #092640;
+  }
+  
+  
+  #menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  #menu li {
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  #menu li:hover .submenu > li {
+    display: block;
+    flex-direction: column;
+    top: 0px;
+    z-index: 1;
+  }
+  
+  .submenu li {
+    display: none;
+    position: absolute;
+    top: 0px;
+  }
+  
+  .submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .submenu li {
+    position: relative;
+  }
+  
+  .submenu li:hover .submenu-2 li {
+    display: block;
+  }
+  
+
+  .perfil {
+    background-color: #687B8C;
+    box-shadow: 0 68px 118px rgba(233, 249, 210, 0.5);
+    margin: 50px auto 0;
+    padding: 75px;
+    width: 600px;
+    
+}
+
+
+header h1{
+  font-family: 'Reem Kufi', sans-serif;
+
+    font-size: 28px;
+    padding-top: 6px;
+    text-transform: uppercase;
+}
+
+.titulo{
+  font-family: 'Reem Kufi', sans-serif;
+
+  text-align: center;
+}
+
+header h2{
+  font-family: 'Reem Kufi', sans-serif;
+
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 0;
+}
+
+
+.bio {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.bio p {
+  font-family: 'Reem Kufi', sans-serif;
+
+    font-size: 25px;
+    font-weight: lighter;
+    
+}
+
+.imagen{
+  position: relative;
+  left: 120px;
+  height: 220px;
+  
+}
+ 
